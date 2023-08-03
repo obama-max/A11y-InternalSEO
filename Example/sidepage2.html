@@ -4,75 +4,26 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Discover our accessible site, offering real-life HTML examples and expert SEO tips. Enhance your web development skills, create inclusive websites, and rank higher in search results. Join our community now!">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Website</title>
+	<link rel="stylesheet" href="./slick/slick.css">
+	<link rel="stylesheet" href="./style/sidepagestyle2.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
-	<style>
-		.header {
-			background-color: #343a40;
-			color: white;
-			padding: 20px;
-			text-align: center;
-		}
-		.logo {
-			font-size: 36px;
-			font-weight: bold;
-		}
-		.nav {
-			background-color: #f8f9fa;
-			padding: 10px;
-			margin-bottom: 20px;
-		}
-		.nav a {
-			color: #343a40;
-			text-decoration: none;
-			margin-right: 20px;
-			font-size: 18px;
-			font-weight: bold;
-		}
-		.title {
-			font-size: 36px;
-			font-weight: bold;
-			margin-bottom: 20px;
-		}
-		.textbox {
-			display: flex;
-			align-items: center;
-			margin-bottom: 20px;
-		}
-		.textbox img {
-			margin-right: 20px;
-		}
-		.textbox input {
-			width: 100%;
-			padding: 12px 20px;
-			margin: 8px 0;
-			box-sizing: border-box;
-			border: 2px solid #ccc;
-			border-radius: 4px;
-			font-size: 16px;
-		}
-		.author {
-			background-color: #f8f9fa;
-			padding: 20px;
-			margin-bottom: 20px;
-		}
-
-	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" 	crossorigin>
+	<link href="https://fonts.googleapis.com/css2?	family=Lora:wght@400;500;600;700&family=Ysabeau+Office:wght@1;100;	200;300;400;500;600;700;800;900;1000&display=swap" 	rel="stylesheet">
 </head>
 
 <body>
 	<title> Accessibility Tips and Guides</title>
 
     <div class="header">
-		<div class="container-xl">
+		<div class="container-xl ">
 			<a href="./homepage.html" aria-label="Inside360 News Logo and home button">
 				<img src="./images/Mediamodifier-Design (1).svg" alt="Inside360 News logo">
 			</a>
 		</div>
     </div>
 
-	<section>
+	<section class="section__nav">
     	<div class="container-xl">
 			<ul class="nav justify-content-center">
     	        <li class="nav-item">
@@ -80,60 +31,290 @@
     	        </li>
 
     	        <li class="nav-item">
-    	          <a class="nav-link" href="#" aria-label="Link button to the Contact Us page">Contact Us</a>
+    	          <a class="nav-link" href="./sidepage1.html" aria-label="Link button to the Contact Us page">SEO</a>
     	        </li>        
     	    </ul>
     	</div>
 	</section>
 
+<article>
 	<section>
     	<div class="container-xl">
 			<div class="text-center title">
-    		   <h1 aria-label="Accessibility">A11y</h1>
+    		   <h1 aria-label="Accessibility">Accessibiliy</h1>
     		</div>
     	</div>
 	</section>
 
 	<section>
     	<div class="container-xl pt-5 pb-5">
-    	    <div class="row text-center">
-    	        <div class="col-md-6">
-					<p>
-						<strong>Maja Miletich </strong>is the CEO of Zip Zap Zop Kids, LLC. Maja has worked with children on many levels. Having a brother with Autism has given Maja anunderstanding of how powerful communication is for ALL children. Maja has worked for years as a teacher where she practices emergent curriculum. Maja has studied theaterand improv at A.C.T. in San Francisco as well as graduated from The Second City Training Center in Hollywood where she studied improv and sketch comedy. Maja has herBachelors Degree in Early Childhood Education. Maja's focus is on inclusive classrooms where curriculum is designed to allow children and young adults to feelcomfortable expressing themselves in whichever way they feel most comfortable. Maja believes when we can share with one another what has been taught then, and only then,are we actually learning.
+    	    <div class="row d-flex justify-content-center">
+    	        <div class="col-md-4 border border-2 w-25 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 ">
+					<h2 class="text-center">
+						Достъпността:
+					</h2>
+
+					<p class="pt-4">	
+						 В уеб разработката се отнася до практиката разработване на уеб сайтове и уеб приложения така, че да бъдат изплозваеми от хора с увреждания. 
 					</p>                   
     	        </div>
 
-    	        <div class="col-md-6">
-					<img src="/31d2b6fd.webp" alt="SEO and accessibility images">
+				<div class="col-md-4 border border-2 w-25 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5">
+					<h2 class="text-center">
+						Целта:
+					</h2>
 
-    	            <h3 class="text-center">
-						Maja Miletich
-					</h3>
+					<p class="pt-4">
+						  Да се осигури на хората с различни увреждания като зрителни, слухови, двигателни и психични увреждания, да могат ефективно да използват уеб съдържанието. 
+					</p>                
+    	        </div>
+
+				<div class="col-md-4 border border-2 w-25 fs-4 flex-column border-dark d-flex rounded-4 pb-5">
+					<h2 class="text-center">
+						Направата:
+					</h2>
+
+					<p class="pt-4"> 
+						 На уеб сайтове достъпни не само помага на потребителите с увреждания, но и подобрява общото потребителско изживяване. 
+					</p>                  
     	        </div>
     	    </div>    
 		</div>
 	</section>
 
-	<section>
-		<div class="container-xl pt-5">
-		    <div class="author">
-				<p>My name is John Doe and I am the author of this website.</p>
-			</div>
+	<section class="container py-lg-5 py-4">
+        <h5 class="mb-4 line-after line--black">
+            Kлючови аспекти и техники:
+        </h5>
 
-			<div class="author">
-				<p>My name is John Doe and I am the author of this website.</p>
-			</div>
-		</div>
-	</section>
-	
-    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-        <p>
-			Blog template built for <a href="#">Bootstrap</a> by <a href="#">@mdo</a>.
-		</p>
+        <div class="slider myslider">
+            <div class="slider-slide p-3">
+                <a href="./wcag.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/W3C®_Icon.svg.png" alt="">
 
-        <p class="mb-0">
-          <a href="#">Back to top</a>
-        </p>
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Ръководствата за достъпност на уеб съдържание (WCAG):
+                    </h5>
+                </a>
+            </div>
+
+            <div class="slider-slide p-3">
+                <a href="./percievable.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/illustration-accessibility-1.png" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Възприемливост:
+                    </h5>
+                </a>
+            </div>
+
+            <div class="slider-slide p-3">
+                <a href="./operable.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/illustration-accessibility-2.jpg" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Изпълнимост:
+                    </h5>
+                </a>
+            </div>
+
+            <div class="slider-slide p-3">
+                <a href="./understandable.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/benefits-icons.jpg" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Разбираемост:
+                    </h5>
+                </a>
+            </div>
+
+			<div class="slider-slide p-3">
+                <a href="./robust.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/Accessibility-Tips.jpg" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Надеждност:
+                    </h5>
+                </a>
+            </div>
+
+			<div class="slider-slide p-3">
+                <a href="./semantic.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/How-to-Meet-HTML-Accessibility-Standards.webp" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Семантичен HTML:
+                    </h5>
+                </a>
+            </div>
+
+			<div class="slider-slide p-3">
+                <a href="./keyboard.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/Accessibility-Tips-1.jpg" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Достъпност с клавиатура:
+                    </h5>
+                </a>
+            </div>
+
+			<div class="slider-slide p-3">
+                <a href="./aria.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/what-is-aria-and-why-use-it.jpg" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        ARIA (Accessible Rich Internet Applications):
+                    </h5>
+                </a>
+            </div>
+
+			<div class="slider-slide p-3">
+                <a href="./captions.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/hero-image.jpg" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Субтитри и транскрипции:
+                    </h5>
+                </a>
+            </div>
+
+			<div class="slider-slide p-3">
+                <a href="./focus.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/hero.png" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Управление на фокуса:
+                    </h5>
+                </a>
+            </div>
+
+			<div class="slider-slide p-3">
+                <a href="./testing.html" class="overflow-hidden object d-block h-100 position-relative">
+                    <img src="./images/Accessibility-Testing.jpg" alt="">
+
+                    <h5 class="ff-lora position-absolute start-0 end-0 bottom-0 px-3 py-2 z-1 text-white">
+                        Тестване и проверка:
+                    </h5>
+                </a>
+            </div>
+        </div> 
+    </section>
+</article>
+
+    <footer class="footer position-relative bg-dark text-white">
+        <div class="footer__inner container pt-lg-5 pt-4">
+            <div class="row py-4 px-4 px-sm-0">
+                <div class="col-9 col-lg-3 mb-3 mb-md-0 p-md-3  pt-md-0">
+                    <div class="logo mb-4">
+                        <a href="#" class="d-block"> 
+                            <img src="./images/Mediamodifier-Design (1).svg" alt="" width="265" height="64">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-9 mb-4 mb-lg-0 ps-lg-5 ps-sm-3">
+                    <div class="row px-1 px-sm-0">
+                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                            <h5 class="mb-4 line-after line--white">
+                                Навигация
+                            </h5>
+
+                            <ul class="footer-nav p-0 m-0 d-flex flex-column align-items-start page-links   page-links--alt">
+                                <li class="list-style-none mb-1 position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Начало
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1  position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        За нас
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1 position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Каталози
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1 position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Обекти
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1 position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Услуги
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1 position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Полезно
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1 position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Новини
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1  position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Контакти
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-md-3 mb-4 mb-md-0">
+                            <h5 class="mb-4 line-after line--white">
+                                Продукти
+                            </h5>
+
+                            <ul class="footer-nav p-0 m-0 d-flex flex-column align-items-start page-links   page-links--alt">
+                                <li class="list-style-none mb-1  position-relative d-inline-block">
+                                    <a href="" style="max-width: 125px;" class="py-1 text-white">
+                                        Дизайнерски радиатори
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1  position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Готови котли
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1  position-relative d-inline-block">
+                                    <a href="" style="max-width:    125px;" class="py-1 text-white">
+                                        Термопомпи и климатици
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1  position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Алуминиеви радиатори
+                                    </a>
+                                </li>
+
+                                <li class="list-style-none mb-1  position-relative d-inline-block">
+                                    <a href="" class="py-1  text-white">
+                                        Подово отопление
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="./slick/slick.js"></script>
+	<script src="./scripts/sidepage2script.js"></script>
 </body>
 </html>
