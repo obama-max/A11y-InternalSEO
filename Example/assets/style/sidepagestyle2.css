@@ -25,7 +25,7 @@ img {
   background-color: gray;
 }
 .header {
-  background-color: #343a40;
+  background-color: #25d6a1d5;
   color: white;
   padding: 20px;
   text-align: center;
@@ -38,7 +38,7 @@ img {
   font-size: 36px;
   font-weight: bold;
 }
-.section__nav{
+.section__nav {
   background-color: #f8f9fa;
 }
 .nav {
@@ -110,9 +110,9 @@ img {
   overflow: visible;
 }
 
-.slider * img{
-    width: 400px;
-    height: 265px;
+.slider * img {
+  width: 400px;
+  height: 265px;
 }
 .object:after {
   content: "";
@@ -129,6 +129,11 @@ img {
 .object:hover:after {
   transform: translateY(50px);
 }
-.footer{
-  margin-top: 200px;
+.footer__logo {
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+}
+.footer__background-color {
+  background-color: #818589;
 }
