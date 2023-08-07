@@ -21,7 +21,7 @@
     
 
       <div class="col-4 text-center header__container">
-        <a href="./homepage.html" aria-label="link leading to the homepage">
+        <a href="./homepage.php" aria-label="link leading to the homepage">
           <img src="./assets/images/Mediamodifier-Design (1).svg" class="header__logo" alt="a logo of our company">
         </a>
       </div>
@@ -71,7 +71,7 @@
 
           <p class="card-text mb-auto">Статия за същноста на SEO и как можем да я използваме за наша полза.</p>
 
-          <a href="./sidepage1.html" class="icon-link gap-1 icon-link-hover stretched-link">
+          <a href="./sidepage1.php" class="icon-link gap-1 icon-link-hover stretched-link">
             Продължете да четете
             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
           </a>
@@ -93,7 +93,7 @@
           <div class="mb-1 text-body-secondary">Август 8</div>
             <p class="mb-auto">Тук можете да прочетете всичко, което трябва да знаете за a11y (достъпност).</p>
 
-            <a href="./sidepage2.html" class="icon-link gap-1 icon-link-hover stretched-link">
+            <a href="./sidepage2.php" class="icon-link gap-1 icon-link-hover stretched-link">
               Продължете да четете
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
@@ -113,7 +113,7 @@
 
       <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1">Клуки и изненади</h2>
-        <p class="blog-post-meta">Август 1, 2023 от <a href="#">Дарий</a></p>
+        <p class="blog-post-meta">Август 1, 2023 от <a href="https://www.op.gg/summoners/eune/Ruyko%20Matoi">Дарий</a></p>
 
         <p>
           В днешния блог пост ще говорим за лудите неща, които се случиха днес. Докато карах към работа, имаше безумно много полицейски служители, повече от дузина, които блокираха всички пътища към офиса! Трябваше да отида чак до мола и да паркирам в подземния паркинг, защото не пускаха никой да влиза. Имаше дигнати огради или специално седя някой по средата на пътя с палка да ти каже да си ходиш.        
@@ -140,25 +140,25 @@
      
         <h2 class="display-5 link-body-emphasis mb-1">Миро</h2>
 
-        <p class="blog-post-meta">Август 2, 2023 от <a href="#">Боян</a></p>
+        <p class="blog-post-meta">Август 2, 2023 от <a href="https://www.youtube.com/watch?v=G5brPjgnzyA">Боян</a></p>
 
         <hr>
 
         <h2>Най-добрият приятел</h2>
 
         <blockquote class="blockquote">
-          <p>Всеки път, когато имам нужда, когато се прибирам от люта жега, когато в стаята ми е станало повече градуси от Хирошима преди 70г., моят най-добър приятел идва на помощ. Това не е кой друг, а Миро. Миро е моят невероятен иновативен подвижен климатик, който пасва във всякакви помещения без проблем. Просто го пъхаш в контакта, слагащ топлия въздух да духа навън и се наслаждаваш на ледено охладена стая без никакви усилия!</p>
+          <p>Всеки път, когато имам нужда, когато се прибирам от люта жега, когато в стаята ми е станало повече градуси от Хирошима преди 70г., моят най-добър приятел идва на помощ. Това не е кой друг, а <a href="https://www.technomarket.bg/air-conditioners/neo-pac-9000-09206494">Миро</a>. <a href="https://www.technomarket.bg/air-conditioners/neo-pac-9000-09206494">Миро</a> е моят невероятен иновативен подвижен климатик, който пасва във всякакви помещения без проблем. Просто го пъхаш в контакта, слагащ топлия въздух да духа навън и се наслаждаваш на ледено охладена стая без никакви усилия!</p>
         </blockquote>
 
         <h2>Може да бъде и ваш!</h2>
 
         <blockquote class="blockquote">
           <p>
-              За скромната цена от 499.99 лв. Можете да сдобиете с вашият Миро, който ще ви помага дори и в най-лютите жеги!               
+              За скромната цена от 699.99 лв. Можете да сдобиете с вашият <a href="https://www.technomarket.bg/air-conditioners/neo-pac-9000-09206494">Миро</a>, който ще ви помага дори и в най-лютите жеги!               
           </p>
 
           <p>
-            Миро можете да го намерите в сайта на <a href="https://www.technopolis.bg/bg/?gclid=CjwKCAjww7KmBhAyEiwA5-PUSkYRNLmExPOQ3fJfWxSLaarUqSSAJwZMnLnZGLmp1J-QHd3bkk__7xoCUk4QAvD_BwE">Технополис</a>!               
+            Миро можете да го намерите в сайта на <a href="https://www.technomarket.bg/">Техномаркет</a>!               
           </p>
 
           <p>
@@ -189,7 +189,7 @@
           <p class="fst-italic fs-4">Скорошни статии</p>
           <ul class="list-unstyled">
             <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="./assets/captions.html">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="./assets/captions.php">
                 <img src="./assets/images/hero-image.jpg" alt="" width="160" height="120">
                 <div class="col-lg-8">
                   <p class="mb-0 fs-5">Субтитри и транскрипции:</p>
@@ -198,7 +198,7 @@
               </a>
             </li>
             <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="./assets/semantic.html">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="./assets/semantic.php">
                 <img src="./assets/images/How-to-Meet-HTML-Accessibility-Standards.png" alt="" width="160" height="120">
                 <div class="col-lg-8">
                   <p class="mb-0 fs-5">Семантичен HTML:</p>
@@ -207,7 +207,7 @@
               </a>
             </li>
             <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="./assets/focus.html">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="./assets/focus.php">
                 <img src="./assets/images/hero.png" alt="" width="160" height="120">
                 <div class="col-lg-8">
                   <p class="mb-0 fs-5">Управление на фокуса:</p>

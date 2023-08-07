@@ -17,7 +17,7 @@
 
     <div class="header">
 		<div class="container-xl ">
-			<a href="../homepage.html" aria-label="Inside360 News Logo and home button">
+			<a href="../homepage.php" aria-label="Inside360 News Logo and home button">
 				<img src="./images/Mediamodifier-Design (1).svg" alt="Inside360 News logo">
 			</a>
 		</div>
@@ -27,11 +27,11 @@
     	<div class="container-xl">
 			<ul class="nav justify-content-center">
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../homepage.html" aria-label="Link button to the Home page">Home</a>
+    	          <a class="nav-link" href="../homepage.php" aria-label="Link button to the Home page">Home</a>
     	        </li>
 
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../sidepage2.html" aria-label="Link button to the Contact Us page">A11Y</a>
+    	          <a class="nav-link" href="../sidepage2.php" aria-label="Link button to the Contact Us page">A11Y</a>
     	        </li>        
     	    </ul>
     	</div>
@@ -50,31 +50,31 @@
     	    <div class="row d-flex justify-content-center">
     	        <div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
 					<h2 class="pt-4 fs-4">
-						Тестване и проверка:
+						Надеждност:
 					</h2>
 
-					<p class="pt-4 fs-6" >	
-						Редовното тестване на уеб сайтове с помощни технологии и проверката за проблеми с достъпността е от съществено значение, за да се идентифицират и отстранят потенциални бариери за достъпност.
-					</p>   
-					  
+					<p class="pt-4 fs-6">	
+						Уеб съдържанието трябва да бъде съвместимо с разнообразни агенти на потребителите, включително различни браузъри, помощни технологии и бъдещи технологии. Това гарантира, че съдържанието остава достъпно, докато технологиите се развиват.
+					</p>    
+					
 					<p class="pt-4 fs-4">	
-						Ето някои ключови аспекти на тестването на достъпността:
+						Ето някои ключови аспекти на надежната достъпност:
 					</p>
-
+					
 					<div class="row fs-6">
 						<div class="col-6">
 							<p>
 								<ul>
 									<li>
-										Използване на помощни технологии
+										Съвместимост с различни устройства и браузъри
 									</li>
 
 									<li class="mt-2">
-										Използване на различни браузъри и устройства
+										Поддръжка на помощни технологии
 									</li>
 
 									<li class="mt-2"> 
-										Тестване на клавиатурната навигация
+										Актуализации на съдържанието
 									</li>
 								</ul>	 
 							</p>     
@@ -84,15 +84,11 @@
 							<p>
 								<ul>
 									<li>
-										Проверка на съответствие с <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG</a> стандартите
+										Семантичен <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
 									</li>
 
 									<li class="mt-2">
-										Тестване с реални потребители
-									</li>
-
-									<li class="mt-2">
-										Използване на инструменти за тестване
+										Съвместимост с бъдещи технологии
 									</li>
 								</ul>	
 							</p>     
@@ -100,8 +96,8 @@
 					</div>
 
 					<p class="pt-4 fs-6">	
-						Тестването на достъпността е процес, който трябва да бъде извършван редовно, за да се гарантира, че уеб сайтовете са винаги достъпни и удобни за всички потребители. При проектирането и разработката на уеб сайтове е важно да се обърне специално внимание на тестването на достъпността и да се използват подходящи методи и инструменти, за да се осигури оптимална достъпност за всички потребители.
-					</p>
+						Надежната достъпност играе критична роля за осигуряване на устойчивост и достъпност на уеб сайтовете за различни потребители и сценарии. При проектирането и разработването на уеб сайтове е важно да се обърне внимание на този аспект и да се прилагат стандарти и техники, които гарантират, че сайтът ще бъде съвместим, функционален и достъпен за всички потребители, включително тези с увреждания.
+					</p> 
     	        </div>
 
 				<div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
@@ -112,65 +108,65 @@
 					<p class="pt-4 ">	
 						<ul class="fs-6">
 							<li>
-								<a href="./wcag.html">
+								<a href="./wcag.php">
 									Ръководствата за достъпност на уеб съдържание (WCAG):
 								</a>
 							</li>
 
 							<li>
-								<a href="./percievable.html">
+								<a href="./percievable.php">
 									Възприемливост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./operable.html">
+								<a href="./operable.php">
 									Изпълнимост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./understandable.html">
+								<a href="./understandable.php">
 									Разбираемост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./robust.html">
-									Надеждност:
-								</a>
-							</li>
-
-							<li>
-								<a href="./semantic.html">
+								<a href="./semantic.php">
 									Семантичен HTML:
 								</a>
 							</li>
 
 							<li>
-								<a href="./keyboard.html">
+								<a href="./keyboard.php">
 									Достъпност с клавиатура:
 								</a>
 							</li>
 
 							<li>
-								<a href="./aria.html">
+								<a href="./aria.php">
 									ARIA
 								</a>
 							</li>
 
 							<li>
-								<a href="./captions.html">
+								<a href="./captions.php">
 									Субтитри и транскрипции:
 								</a>
 							</li>
 
 							<li>
-								<a href="./focus.html">
+								<a href="./focus.php">
 									Управление на фокуса:
 								</a>
 							</li>
-						</ul>		
+
+							<li>
+								<a href="./testing.php">
+									Тестване и проверка:
+								</a>
+							</li>
+						</ul>	
 					</p>                   
     	        </div>
     	    </div>    

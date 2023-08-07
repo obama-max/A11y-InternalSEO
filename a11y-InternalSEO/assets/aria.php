@@ -17,7 +17,7 @@
 
     <div class="header">
 		<div class="container-xl ">
-			<a href="../homepage.html" aria-label="Inside360 News Logo and home button">
+			<a href="../homepage.php" aria-label="Inside360 News Logo and home button">
 				<img src="./images/Mediamodifier-Design (1).svg" alt="Inside360 News logo">
 			</a>
 		</div>
@@ -27,11 +27,11 @@
     	<div class="container-xl">
 			<ul class="nav justify-content-center">
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../homepage.html" aria-label="Link button to the Home page">Home</a>
+    	          <a class="nav-link" href="../homepage.php" aria-label="Link button to the Home page">Home</a>
     	        </li>
 
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../sidepage2.html" aria-label="Link button to the Contact Us page">A11Y</a>
+    	          <a class="nav-link" href="../sidepage2.php" aria-label="Link button to the Contact Us page">A11Y</a>
     	        </li>        
     	    </ul>
     	</div>
@@ -48,17 +48,17 @@
 	<section>
     	<div class="container-xl pt-5 pb-5">
     	    <div class="row d-flex justify-content-center">
-    	        <div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
-					<h2 class="pt-4 fs-4 ">
-						Достъпност с клавиатура:
+    	        <div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 ms-2 "  tabindex="0">
+					<h2 class="pt-4 fs-4">
+						ARIA (Accessible Rich Internet Applications):
 					</h2>
 
 					<p class="pt-4 fs-6">	
-						Всички функционалности и интерактивни елементи на уеб сайта трябва да бъдат достъпни и използваеми с клавиатура. Потребителите с двигателни увреждания могат да разчитат на клавиатурата или други устройства за въвеждане, вместо на мишка.
+						<a href="https://www.w3.org/WAI/standards-guidelines/aria/">ARIA</a> е набор от атрибути, които могат да бъдат добавени към <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> елементи, за да подобрят достъпността на динамичното и интерактивно съдържание. Той помага на помощните технологии да разберат целта и поведението на различните елементи.
 					</p>   
 					
-					<p class="pt-4">	
-						Ето някои ключови аспекти на достъпността чрез клавиатура:
+					<p class="pt-4 fs-4">	
+						Ето някои ключови аспекти на достъпността чрез ARIA:
 					</p>
 
 					<div class="row fs-6">
@@ -66,15 +66,15 @@
 							<p>
 								<ul>
 									<li>
-										Фокусиране и навигация
+										Роля на елементите
 									</li>
 
 									<li class="mt-2">
-										Използване на клавишни превключвания
+										Състояние на елементите
 									</li>
 
 									<li class="mt-2"> 
-										Състояние на фокуса
+										Управление на фокуса
 									</li>
 								</ul>	 
 							</p>     
@@ -84,15 +84,11 @@
 							<p>
 								<ul>
 									<li>
-										Използване на "<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex">tabindex</a>"
+										Описание на съдържанието
 									</li>
 
 									<li class="mt-2">
-										Разумно разстояние между елементите
-									</li>
-
-									<li class="mt-2"> 
-										Тестване с клавиатура
+										Достъпност на приложенията
 									</li>
 								</ul>	
 							</p>     
@@ -100,77 +96,77 @@
 					</div>
 
 					<p class="pt-4 fs-6">	
-						Предоставянето на достъпност чрез клавиатура помага на потребителите с увреждания да използват уеб сайтовете си с равни възможности. При проектирането и разработването на уеб сайтове е важно да се обърне специално внимание на този аспект и да се предоставят удобни и лесни за използване възможности за навигация и интеракция с клавиатура.
+						Употребата на <a href="https://www.w3.org/WAI/standards-guidelines/aria/">ARIA</a> атрибути и роли е иновативен и важен начин за подобряване на достъпността на уеб сайтовете и приложенията. При разработка и проектиране на уеб сайтове, разработчиците трябва да имат предвид възможностите на <a href="https://www.w3.org/WAI/standards-guidelines/aria/">ARIA</a> и да го използват, където е необходимо, за да предоставят по-добра достъпност и удобство на потребителите с увреждания.
 					</p>
     	        </div>
 
-				<div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
-					<h2 class="pt-4 fs-4">
+				<div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 ms-2 " tabindex="0">
+					<h2 class="pt-4">
 						Още:
 					</h2>
 
 					<p class="pt-4 ">	
 						<ul class="fs-6">
 							<li>
-								<a href="./wcag.html">
+								<a href="./wcag.php">
 									Ръководствата за достъпност на уеб съдържание (WCAG):
 								</a>
 							</li>
 
 							<li>
-								<a href="./percievable.html">
+								<a href="./percievable.php">
 									Възприемливост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./operable.html">
+								<a href="./operable.php">
 									Изпълнимост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./understandable.html">
+								<a href="./understandable.php">
 									Разбираемост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./robust.html">
+								<a href="./robust.php">
 									Надеждност:
 								</a>
 							</li>
 
 							<li>
-								<a href="./semantic.html">
+								<a href="./semantic.php">
 									Семантичен HTML:
 								</a>
 							</li>
 
 							<li>
-								<a href="./aria.html">
-									ARIA
+								<a href="./keyboard.php">
+									Достъпност с клавиатура:
 								</a>
 							</li>
 
 							<li>
-								<a href="./captions.html">
+								<a href="./captions.php">
 									Субтитри и транскрипции:
 								</a>
 							</li>
 
 							<li>
-								<a href="./focus.html">
+								<a href="./focus.php">
 									Управление на фокуса:
 								</a>
 							</li>
 
 							<li>
-								<a href="./testing.html">
+								<a href="./testing.php">
 									Тестване и проверка:
 								</a>
 							</li>
-						</ul>		
+						</ul>	
 					</p>                   
     	        </div>
     	    </div>    

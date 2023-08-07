@@ -17,7 +17,7 @@
 
     <div class="header">
 		<div class="container-xl ">
-			<a href="../homepage.html" aria-label="Inside360 News Logo and home button">
+			<a href="../homepage.php" aria-label="Inside360 News Logo and home button">
 				<img src="./images/Mediamodifier-Design (1).svg" alt="Inside360 News logo">
 			</a>
 		</div>
@@ -27,11 +27,11 @@
     	<div class="container-xl">
 			<ul class="nav justify-content-center">
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../homepage.html" aria-label="Link button to the Home page">Home</a>
+    	          <a class="nav-link" href="../homepage.php" aria-label="Link button to the Home page">Home</a>
     	        </li>
 
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../sidepage2.html" aria-label="Link button to the Contact Us page">A11Y</a>
+    	          <a class="nav-link" href="../sidepage2.php" aria-label="Link button to the Contact Us page">A11Y</a>
     	        </li>        
     	    </ul>
     	</div>
@@ -50,31 +50,31 @@
     	    <div class="row d-flex justify-content-center">
     	        <div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
 					<h2 class="pt-4 fs-4">
-						Разбираемост:
+						Управление на фокуса:
 					</h2>
 
 					<p class="pt-4 fs-6">	
-						Информацията и операциите на потребителския интерфейс трябва да бъдат ясни и лесно разбираеми. Това включва използване на разбираем език, консистентна навигация и избягване на сложни жаргонизми.
-					</p>
+						Осигуряването на правилни стилове на фокуса и навигационен поток помага на потребителите да разберат текущото си местоположение на страницата и подобрява достъпността с клавиатура.
+					</p> 
 					
 					<p class="pt-4 fs-4">	
-						Ето някои ключови аспекти на разбираемата достъпност:
+						Ето някои ключови аспекти на достъпността чрез фокусиране:
 					</p>
-					
+
 					<div class="row fs-6">
 						<div class="col-6">
 							<p>
 								<ul>
 									<li>
-										Използване на разбираем език
+										Визуално подчертаване на фокуса
 									</li>
 
 									<li class="mt-2">
-										Консистентна навигация
+										Чувствителен фокус
 									</li>
 
 									<li class="mt-2"> 
-										Предоставяне на ясни инструкции
+										Логичен ред на фокусиране
 									</li>
 								</ul>	 
 							</p>     
@@ -84,11 +84,11 @@
 							<p>
 								<ul>
 									<li>
-										Адекватна структура на съдържанието
+										Индикация за грешки
 									</li>
 
 									<li class="mt-2">
-										Избягване на прекалено сложни дизайн елементи
+										Фокус на съдържание при отваряне на модални прозорци
 									</li>
 								</ul>	
 							</p>     
@@ -96,8 +96,8 @@
 					</div>
 
 					<p class="pt-4 fs-6">	
-						Разбираемата достъпност играе важна роля за улесняването на интеракцията и използването на уеб сайтовете от всички потребители, включително тези с когнитивни увреждания или затруднения в разбирането на информация. При проектирането на уеб сайтове, е важно да се обърне специално внимание на този аспект, за да се осигури, че съдържанието и функционалността са представени по възможно най-разбираем и достъпен начин.
-					</p> 
+						Достъпността чрез фокусиране е от голямо значение за предоставяне на удобство и лесна навигация за потребителите с увреждания, които използват клавиатурата за интеракция с уеб сайтовете. При проектирането и разработването на уеб сайтове е важно да се обърне специално внимание на този аспект и да се осигури, че фокусирането и навигацията с клавиатура са оптимизирани за достъпност и удобство.
+					</p>
     	        </div>
 
 				<div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
@@ -108,72 +108,72 @@
 					<p class="pt-4 ">	
 						<ul class="fs-6">
 							<li>
-								<a href="./wcag.html">
+								<a href="./wcag.php">
 									Ръководствата за достъпност на уеб съдържание (WCAG):
 								</a>
 							</li>
 
 							<li>
-								<a href="./percievable.html">
+								<a href="./percievable.php">
 									Възприемливост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./operable.html">
+								<a href="./operable.php">
 									Изпълнимост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./robust.html">
+								<a href="./understandable.php">
+									Разбираемост:
+								</a>
+							</li>
+
+							<li>
+								<a href="./robust.php">
 									Надеждност:
 								</a>
 							</li>
 
 							<li>
-								<a href="./semantic.html">
+								<a href="./semantic.php">
 									Семантичен HTML:
 								</a>
 							</li>
 
 							<li>
-								<a href="./keyboard.html">
+								<a href="./keyboard.php">
 									Достъпност с клавиатура:
 								</a>
 							</li>
 
 							<li>
-								<a href="./aria.html">
+								<a href="./aria.php">
 									ARIA
 								</a>
 							</li>
 
 							<li>
-								<a href="./captions.html">
+								<a href="./captions.php">
 									Субтитри и транскрипции:
 								</a>
 							</li>
 
 							<li>
-								<a href="./focus.html">
-									Управление на фокуса:
-								</a>
-							</li>
-
-							<li>
-								<a href="./testing.html">
+								<a href="./testing.php">
 									Тестване и проверка:
 								</a>
 							</li>
-						</ul>		
+						</ul>	
 					</p>                   
     	        </div>
     	    </div>    
 		</div>
 	</section>
 
-    <footer class="py-5 footer__background-color">
+	<footer class="py-5 footer__background-color">
 		<div class="container-xl">
 			<div class="row">
 			  <div class="col-12 col-md">

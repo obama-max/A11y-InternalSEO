@@ -17,7 +17,7 @@
 
     <div class="header">
 		<div class="container-xl ">
-			<a href="../homepage.html" aria-label="Inside360 News Logo and home button">
+			<a href="../homepage.php" aria-label="Inside360 News Logo and home button">
 				<img src="./images/Mediamodifier-Design (1).svg" alt="Inside360 News logo">
 			</a>
 		</div>
@@ -27,11 +27,11 @@
     	<div class="container-xl">
 			<ul class="nav justify-content-center">
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../homepage.html" aria-label="Link button to the Home page">Home</a>
+    	          <a class="nav-link" href="../homepage.php" aria-label="Link button to the Home page">Home</a>
     	        </li>
 
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../sidepage2.html" aria-label="Link button to the Contact Us page">A11Y</a>
+    	          <a class="nav-link" href="../sidepage2.php" aria-label="Link button to the Contact Us page">A11Y</a>
     	        </li>        
     	    </ul>
     	</div>
@@ -48,33 +48,33 @@
 	<section>
     	<div class="container-xl pt-5 pb-5">
     	    <div class="row d-flex justify-content-center">
-    	        <div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 ms-2 "  tabindex="0">
+    	        <div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
 					<h2 class="pt-4 fs-4">
-						ARIA (Accessible Rich Internet Applications):
+						Разбираемост:
 					</h2>
 
 					<p class="pt-4 fs-6">	
-						<a href="https://www.w3.org/WAI/standards-guidelines/aria/">ARIA</a> е набор от атрибути, които могат да бъдат добавени към <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> елементи, за да подобрят достъпността на динамичното и интерактивно съдържание. Той помага на помощните технологии да разберат целта и поведението на различните елементи.
-					</p>   
+						Информацията и операциите на потребителския интерфейс трябва да бъдат ясни и лесно разбираеми. Това включва използване на разбираем език, консистентна навигация и избягване на сложни жаргонизми.
+					</p>
 					
 					<p class="pt-4 fs-4">	
-						Ето някои ключови аспекти на достъпността чрез ARIA:
+						Ето някои ключови аспекти на разбираемата достъпност:
 					</p>
-
+					
 					<div class="row fs-6">
 						<div class="col-6">
 							<p>
 								<ul>
 									<li>
-										Роля на елементите
+										Използване на разбираем език
 									</li>
 
 									<li class="mt-2">
-										Състояние на елементите
+										Консистентна навигация
 									</li>
 
 									<li class="mt-2"> 
-										Управление на фокуса
+										Предоставяне на ясни инструкции
 									</li>
 								</ul>	 
 							</p>     
@@ -84,11 +84,11 @@
 							<p>
 								<ul>
 									<li>
-										Описание на съдържанието
+										Адекватна структура на съдържанието
 									</li>
 
 									<li class="mt-2">
-										Достъпност на приложенията
+										Избягване на прекалено сложни дизайн елементи
 									</li>
 								</ul>	
 							</p>     
@@ -96,84 +96,84 @@
 					</div>
 
 					<p class="pt-4 fs-6">	
-						Употребата на <a href="https://www.w3.org/WAI/standards-guidelines/aria/">ARIA</a> атрибути и роли е иновативен и важен начин за подобряване на достъпността на уеб сайтовете и приложенията. При разработка и проектиране на уеб сайтове, разработчиците трябва да имат предвид възможностите на <a href="https://www.w3.org/WAI/standards-guidelines/aria/">ARIA</a> и да го използват, където е необходимо, за да предоставят по-добра достъпност и удобство на потребителите с увреждания.
-					</p>
+						Разбираемата достъпност играе важна роля за улесняването на интеракцията и използването на уеб сайтовете от всички потребители, включително тези с когнитивни увреждания или затруднения в разбирането на информация. При проектирането на уеб сайтове, е важно да се обърне специално внимание на този аспект, за да се осигури, че съдържанието и функционалността са представени по възможно най-разбираем и достъпен начин.
+					</p> 
     	        </div>
 
-				<div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 ms-2 " tabindex="0">
-					<h2 class="pt-4">
+				<div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
+					<h2 class="pt-4 fs-4">
 						Още:
 					</h2>
 
 					<p class="pt-4 ">	
 						<ul class="fs-6">
 							<li>
-								<a href="./wcag.html">
+								<a href="./wcag.php">
 									Ръководствата за достъпност на уеб съдържание (WCAG):
 								</a>
 							</li>
 
 							<li>
-								<a href="./percievable.html">
+								<a href="./percievable.php">
 									Възприемливост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./operable.html">
+								<a href="./operable.php">
 									Изпълнимост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./understandable.html">
-									Разбираемост:
-								</a>
-							</li>
-
-							<li>
-								<a href="./robust.html">
+								<a href="./robust.php">
 									Надеждност:
 								</a>
 							</li>
 
 							<li>
-								<a href="./semantic.html">
+								<a href="./semantic.php">
 									Семантичен HTML:
 								</a>
 							</li>
 
 							<li>
-								<a href="./keyboard.html">
+								<a href="./keyboard.php">
 									Достъпност с клавиатура:
 								</a>
 							</li>
 
 							<li>
-								<a href="./captions.html">
+								<a href="./aria.php">
+									ARIA
+								</a>
+							</li>
+
+							<li>
+								<a href="./captions.php">
 									Субтитри и транскрипции:
 								</a>
 							</li>
 
 							<li>
-								<a href="./focus.html">
+								<a href="./focus.php">
 									Управление на фокуса:
 								</a>
 							</li>
 
 							<li>
-								<a href="./testing.html">
+								<a href="./testing.php">
 									Тестване и проверка:
 								</a>
 							</li>
-						</ul>	
+						</ul>		
 					</p>                   
     	        </div>
     	    </div>    
 		</div>
 	</section>
 
-	<footer class="py-5 footer__background-color">
+    <footer class="py-5 footer__background-color">
 		<div class="container-xl">
 			<div class="row">
 			  <div class="col-12 col-md">

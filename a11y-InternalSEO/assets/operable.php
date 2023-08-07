@@ -17,7 +17,7 @@
 
     <div class="header">
 		<div class="container-xl ">
-			<a href="../homepage.html" aria-label="Inside360 News Logo and home button">
+			<a href="../homepage.php" aria-label="Inside360 News Logo and home button">
 				<img src="./images/Mediamodifier-Design (1).svg" alt="Inside360 News logo">
 			</a>
 		</div>
@@ -27,11 +27,11 @@
     	<div class="container-xl">
 			<ul class="nav justify-content-center">
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../homepage.html" aria-label="Link button to the Home page">Home</a>
+    	          <a class="nav-link" href="../homepage.php" aria-label="Link button to the Home page">Home</a>
     	        </li>
 
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../sidepage2.html" aria-label="Link button to the Contact Us page">A11Y</a>
+    	          <a class="nav-link" href="../sidepage2.php" aria-label="Link button to the Contact Us page">A11Y</a>
     	        </li>        
     	    </ul>
     	</div>
@@ -108,61 +108,61 @@
 					<p class="pt-4 ">	
 						<ul class="fs-6">
 							<li>
-								<a href="./wcag.html">
+								<a href="./wcag.php">
 									Ръководствата за достъпност на уеб съдържание (WCAG):
 								</a>
 							</li>
 
 							<li>
-								<a href="./percievable.html">
+								<a href="./percievable.php">
 									Възприемливост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./understandable.html">
+								<a href="./understandable.php">
 									Разбираемост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./robust.html">
+								<a href="./robust.php">
 									Надеждност:
 								</a>
 							</li>
 
 							<li>
-								<a href="./semantic.html">
+								<a href="./semantic.php">
 									Семантичен HTML:
 								</a>
 							</li>
 
 							<li>
-								<a href="./keyboard.html">
+								<a href="./keyboard.php">
 									Достъпност с клавиатура:
 								</a>
 							</li>
 
 							<li>
-								<a href="./aria.html">
+								<a href="./aria.php">
 									ARIA
 								</a>
 							</li>
 
 							<li>
-								<a href="./captions.html">
+								<a href="./captions.php">
 									Субтитри и транскрипции:
 								</a>
 							</li>
 
 							<li>
-								<a href="./focus.html">
+								<a href="./focus.php">
 									Управление на фокуса:
 								</a>
 							</li>
 
 							<li>
-								<a href="./testing.html">
+								<a href="./testing.php">
 									Тестване и проверка:
 								</a>
 							</li>

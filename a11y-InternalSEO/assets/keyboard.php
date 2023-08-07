@@ -17,7 +17,7 @@
 
     <div class="header">
 		<div class="container-xl ">
-			<a href="../homepage.html" aria-label="Inside360 News Logo and home button">
+			<a href="../homepage.php" aria-label="Inside360 News Logo and home button">
 				<img src="./images/Mediamodifier-Design (1).svg" alt="Inside360 News logo">
 			</a>
 		</div>
@@ -27,11 +27,11 @@
     	<div class="container-xl">
 			<ul class="nav justify-content-center">
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../homepage.html" aria-label="Link button to the Home page">Home</a>
+    	          <a class="nav-link" href="../homepage.php" aria-label="Link button to the Home page">Home</a>
     	        </li>
 
     	        <li class="nav-item">
-    	          <a class="nav-link" href="../sidepage2.html" aria-label="Link button to the Contact Us page">A11Y</a>
+    	          <a class="nav-link" href="../sidepage2.php" aria-label="Link button to the Contact Us page">A11Y</a>
     	        </li>        
     	    </ul>
     	</div>
@@ -49,32 +49,32 @@
     	<div class="container-xl pt-5 pb-5">
     	    <div class="row d-flex justify-content-center">
     	        <div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
-					<h2 class="pt-4 fs-4">
-						Надеждност:
+					<h2 class="pt-4 fs-4 ">
+						Достъпност с клавиатура:
 					</h2>
 
 					<p class="pt-4 fs-6">	
-						Уеб съдържанието трябва да бъде съвместимо с разнообразни агенти на потребителите, включително различни браузъри, помощни технологии и бъдещи технологии. Това гарантира, че съдържанието остава достъпно, докато технологиите се развиват.
-					</p>    
+						Всички функционалности и интерактивни елементи на уеб сайта трябва да бъдат достъпни и използваеми с клавиатура. Потребителите с двигателни увреждания могат да разчитат на клавиатурата или други устройства за въвеждане, вместо на мишка.
+					</p>   
 					
-					<p class="pt-4 fs-4">	
-						Ето някои ключови аспекти на надежната достъпност:
+					<p class="pt-4">	
+						Ето някои ключови аспекти на достъпността чрез клавиатура:
 					</p>
-					
+
 					<div class="row fs-6">
 						<div class="col-6">
 							<p>
 								<ul>
 									<li>
-										Съвместимост с различни устройства и браузъри
+										Фокусиране и навигация
 									</li>
 
 									<li class="mt-2">
-										Поддръжка на помощни технологии
+										Използване на клавишни превключвания
 									</li>
 
 									<li class="mt-2"> 
-										Актуализации на съдържанието
+										Състояние на фокуса
 									</li>
 								</ul>	 
 							</p>     
@@ -84,11 +84,15 @@
 							<p>
 								<ul>
 									<li>
-										Семантичен <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+										Използване на "<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex">tabindex</a>"
 									</li>
 
 									<li class="mt-2">
-										Съвместимост с бъдещи технологии
+										Разумно разстояние между елементите
+									</li>
+
+									<li class="mt-2"> 
+										Тестване с клавиатура
 									</li>
 								</ul>	
 							</p>     
@@ -96,8 +100,8 @@
 					</div>
 
 					<p class="pt-4 fs-6">	
-						Надежната достъпност играе критична роля за осигуряване на устойчивост и достъпност на уеб сайтовете за различни потребители и сценарии. При проектирането и разработването на уеб сайтове е важно да се обърне внимание на този аспект и да се прилагат стандарти и техники, които гарантират, че сайтът ще бъде съвместим, функционален и достъпен за всички потребители, включително тези с увреждания.
-					</p> 
+						Предоставянето на достъпност чрез клавиатура помага на потребителите с увреждания да използват уеб сайтовете си с равни възможности. При проектирането и разработването на уеб сайтове е важно да се обърне специално внимание на този аспект и да се предоставят удобни и лесни за използване възможности за навигация и интеракция с клавиатура.
+					</p>
     	        </div>
 
 				<div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
@@ -108,72 +112,72 @@
 					<p class="pt-4 ">	
 						<ul class="fs-6">
 							<li>
-								<a href="./wcag.html">
+								<a href="./wcag.php">
 									Ръководствата за достъпност на уеб съдържание (WCAG):
 								</a>
 							</li>
 
 							<li>
-								<a href="./percievable.html">
+								<a href="./percievable.php">
 									Възприемливост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./operable.html">
+								<a href="./operable.php">
 									Изпълнимост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./understandable.html">
+								<a href="./understandable.php">
 									Разбираемост:
 								</a>
 							</li>
 
 							<li>
-								<a href="./semantic.html">
+								<a href="./robust.php">
+									Надеждност:
+								</a>
+							</li>
+
+							<li>
+								<a href="./semantic.php">
 									Семантичен HTML:
 								</a>
 							</li>
 
 							<li>
-								<a href="./keyboard.html">
-									Достъпност с клавиатура:
-								</a>
-							</li>
-
-							<li>
-								<a href="./aria.html">
+								<a href="./aria.php">
 									ARIA
 								</a>
 							</li>
 
 							<li>
-								<a href="./captions.html">
+								<a href="./captions.php">
 									Субтитри и транскрипции:
 								</a>
 							</li>
 
 							<li>
-								<a href="./focus.html">
+								<a href="./focus.php">
 									Управление на фокуса:
 								</a>
 							</li>
 
 							<li>
-								<a href="./testing.html">
+								<a href="./testing.php">
 									Тестване и проверка:
 								</a>
 							</li>
-						</ul>	
+						</ul>		
 					</p>                   
     	        </div>
     	    </div>    
 		</div>
 	</section>
 
-    <footer class="py-5 footer__background-color">
+	<footer class="py-5 footer__background-color">
 		<div class="container-xl">
 			<div class="row">
 			  <div class="col-12 col-md">
