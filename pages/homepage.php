@@ -2,15 +2,9 @@
 <html lang="en" data-bs-theme="dark">
 
     <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Inside360 - Exploring a 360-Degree View of the World News">
-    <meta name="description" content="Stay informed with the latest global news from around the world. Our website covers a wide range of topics, including politics, economy, society, culture, sports, technology, science, health, environment, and more. Get timely updates and in-depth analysis on current events and breaking news. Stay connected to the world with our comprehensive coverage of international affairs.">
-    <meta name="author" content="Дарчо Сладкиша и Боян сладоледа">
-    <meta name="generator" content="Hugo 0.115.4">
-    <title>Inside360</title>
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  
+    <?php
+	  include __DIR__ . '/../builders/head.php';
+	  ?>
   </head>
   <body>
   
