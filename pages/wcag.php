@@ -1,5 +1,4 @@
 
-<div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
 	<h2 class="pt-4 fs-4">
 		Ръководствата за достъпност на уеб съдържание (WCAG):
 	</h2>
@@ -69,4 +68,3 @@
 			</p>     
 		</div>
 	</div>    
-</div>

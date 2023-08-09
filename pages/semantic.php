@@ -1,5 +1,4 @@
 
-	<div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
 		<h2 class="pt-4 fs-4">
 			Семантичен HTML:
 		</h2>
@@ -53,5 +52,3 @@
 		 Scammed</a> by Darius Popov 
 		 on 
 		</p>
-	</div>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
