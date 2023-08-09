@@ -9,12 +9,14 @@
 <html lang="en">
 	<head>
         <?php include 'builders/head.php'; ?>
+        <?php include 'builders/styles.php'; ?>
 	</head>
 
 	<body>
         <?php
 	    	include __DIR__ . '/builders/header.php';
-	    ?>
+            include 'builders/nav.php'; 
+1	    ?>
 
         <main>
             <section>
@@ -28,7 +30,7 @@
 
                         <div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 ms-2 " tabindex="0">
                             <?php
-	                        	include __DIR__ . '/builders/more.php';
+	                        	include __DIR__ . '/builders/aside.php';
 	                        ?>
                             
                         </div>
@@ -39,6 +41,7 @@
 
         <?php
 		    include __DIR__ . '/builders/footer.php';
+            include 'builders/scripts.php'; 
 	    ?>       
 	</body>
 </html>
