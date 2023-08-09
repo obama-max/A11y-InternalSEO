@@ -1,1 +1,1 @@
-<h1 style="display:flex; justify-content: center; align-items: center; height: 100%">Please select a topic:</h1>
+<h1 class="d-flex justify-content-center align-items-center h-100">Please select a topic:</h1>
