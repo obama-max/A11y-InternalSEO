@@ -4,8 +4,3 @@
 <meta name="description" content="Stay informed with the latest global news from around the world. Our website covers a wide range oftopics, including politics, economy, society, culture, sports, technology, science, health, environment, and more. Get timely updatesand in-depth analysis on current events and breaking news. Stay connected to the world with our comprehensive coverage of internationalaffairs.">
 <meta name="author" content="Дарчо Сладкиша и Боян сладоледа">
 <meta name="generator" content="Hugo 0.115.4">
-
-<link rel="stylesheet" href="assets/style/sidepagestyle2.css">
-<link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
