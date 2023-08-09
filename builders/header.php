@@ -1,6 +1,6 @@
 <div class="header">
 		<div class="container-xl ">
-			<a href="./pages/sidepage2.php" aria-label="Inside360 News Logo and home button">
+			<a href="?page=index" aria-label="Inside360 News Logo and home button">
 				<img src="./assets/images/logo-white.svg" alt="Inside360 News logo">
 			</a>
 		</div>
