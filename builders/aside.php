@@ -1,4 +1,4 @@
-<div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 ms-2 " tabindex="0">
+
 	<h2 class="pt-4">
 		Още:
 	</h2>
@@ -72,4 +72,3 @@
 			</li>
 		</ul>	
 	</p>                   
-</div>
