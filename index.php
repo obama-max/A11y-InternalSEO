@@ -22,14 +22,42 @@
             ]
          ] 
          ,
-         'fosus' => [ 
-            'page_data' => 'Фокус',
+         'a11y' => [ 
+            'page_data' => 'A11Y',
 
             'page_link' => 'focus',
             'sub_pages' => [
-                'keyboard' => [ 
-                    'page_data' => 'Клавиатура',
-                ]
+                'aria' => [ 
+                    'page_data' => 'Ария',
+                ] ,
+                'captions' => [ 
+                    'page_data' => 'Субтитри',
+                ] ,
+                'focus' => [ 
+                    'page_data' => 'Фокус',
+                ] ,
+                'operable' => [ 
+                    'page_data' => 'Изпълнимос',
+                ] ,
+                'percievable' => [ 
+                    'page_data' => 'Възприемливост',
+                ] ,
+                'robust' => [ 
+                    'page_data' => 'Надежност',
+                ] ,
+                'semantic' => [ 
+                    'page_data' => 'Семнатичен HTML',
+                ] ,
+                'testing' => [ 
+                    'page_data' => 'Проверка',
+                ] ,
+                'understandable' => [ 
+                    'page_data' => 'Разбираемост',
+                ] ,
+                'wcag' => [ 
+                    'page_data' => 'WCAG',
+                ] 
+
             ]
          ]
     ];
