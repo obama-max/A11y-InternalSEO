@@ -1,0 +1,35 @@
+.container__body{
+    background: red;
+    right: 0;
+    top: 0;
+    height:100%;
+    width: 80%;
+    position: absolute;
+   
+}
+.container__aside{
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 20%;
+    position: absolute;
+}
+.container__body-title{
+    background: green;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    height: 40px;
+    align-items: center; 
+    font-size: 36px;
+}
+.body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+.hack{
+    width:100%
+    background: green;
+    height:40px;
+}

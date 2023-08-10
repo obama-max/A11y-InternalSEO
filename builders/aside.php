@@ -1,3 +1,5 @@
+<div class="container__aside">
+
 <p class="pt-4 ">	
 	<ul class="fs-6">
 		<li>
@@ -74,7 +76,6 @@
         <div class="iocn-link">
           <a href="#">
             <i class='bx bx-collection' ></i>
-
 
             <span class="link_name">Category</span>
           </a>
@@ -266,3 +267,4 @@
       </li>
     </ul>
   </div>
+</div>
