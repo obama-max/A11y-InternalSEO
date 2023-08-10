@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/slick/asidestyle.css">
+<link rel="stylesheet" href="assets/style/asidestyle.css">
 <link rel="stylesheet" href="assets/slick/slick.css">
 <link rel="stylesheet" href="assets/style/sidepagestyle2.css">
 <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
