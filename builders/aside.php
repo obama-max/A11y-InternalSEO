@@ -6,67 +6,67 @@
 	<p class="pt-4 ">	
 		<ul class="fs-6">
 			<li>
-				<a href="./pages/wcag.php">
+				<a href="?page=wcag">
 					Ръководствата за достъпност на уеб съдържание (WCAG):
 				</a>
 			</li>
 
 			<li>
-				<a href="./pages/percievable.php">
+				<a href="?page=percievable">
 					Възприемливост:
 				</a>
 			</li>
 
 			<li>
-				<a href="./pages/operable.php">
+				<a href="?page=operable">
 					Изпълнимост:
 				</a>
 			</li>
 
 			<li>
-				<a href="./pages/understandable.php">
+				<a href="?page=understandable">
 					Разбираемост:
 				</a>
 			</li>
 
 			<li>
-				<a href="./pages/robust.php">
+				<a href="?page=robust">
 					Надеждност:
 				</a>
 			</li>
 
             <li>
-				<a href="./pages/aria.php">
+				<a href="?page=aria">
 					ARIA:
 				</a>
 			</li>
 
 			<li>
-				<a href="./pages/semantic.php">
+				<a href="?page=semantic">
 					Семантичен HTML:
 				</a>
 			</li>
 
 			<li>
-				<a href="./pages/keyboard.php">
+				<a href="?page=keyboard">
 					Достъпност с клавиатура:
 				</a>
 			</li>
 
 			<li>
-				<a href="./pages/captions.php?a=aria">
+				<a href="?page=captions">
 					Субтитри и транскрипции:
 				</a>
 			</li>
 
 			<li>
-				<a href="./pages/focus.php">
+				<a href="?page=focus">
 					Управление на фокуса:
 				</a>
 			</li>
             
 			<li>
-				<a href="./pages/testing.php">
+				<a href="?page=testing">
 					Тестване и проверка:
 				</a>
 			</li>

@@ -14,6 +14,10 @@
 
 	<body>
        
+        <?php
+	    	include __DIR__ . '/builders/header.php';
+            include 'builders/nav.php'; 
+	    ?>
 
         <main>
             <section>           
@@ -30,6 +34,7 @@
 
         <?php		  
             include 'builders/scripts.php'; 
-	    ?>       
+	    ?>    
+
 	</body>
 </html>
