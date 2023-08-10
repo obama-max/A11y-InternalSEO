@@ -4,8 +4,9 @@
     top: 0;
     height:100%;
     width: 86.44%;
-    position: absolute;
-   
+    position: absolute;  
+    border-top-left-radius: 150px;
+    z-index: 30;
 }
 .container__aside{
     left: 0;
