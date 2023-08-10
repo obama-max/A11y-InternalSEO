@@ -1,12 +1,12 @@
 <?php 
     $pages = [ 
-        'aria' => [ 
-            'page_data' => 'Ария',
-            'page_link' => 'aria',
+        'html' => [ 
+            'page_data' => 'HTML',
+            'page_link' => 'html',
 
             'sub_pages' => [
                 'modals' => [ 
-                    'page_data' => 'Модал',
+                    'page_data' => 'Тагове',
                 ]
             ]
          ] 
@@ -25,7 +25,7 @@
          'a11y' => [ 
             'page_data' => 'A11Y',
 
-            'page_link' => 'focus',
+            'page_link' => 'a11y',
             'sub_pages' => [
                 'aria' => [ 
                     'page_data' => 'Ария',
