@@ -1,4 +1,6 @@
+<div class="container__aside">
 
+     
 	<h2 class="pt-4">
 		Още:
 	</h2>
@@ -72,3 +74,4 @@
 			</li>
 		</ul>	
 	</p>                   
+</div

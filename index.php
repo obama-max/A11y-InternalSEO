@@ -17,10 +17,13 @@
                             <?php 
                                 include $page_path;
                             ?>
-                               
-                            <?php
-	                        	include __DIR__ . '/builders/test 1.php';
-	                        ?>
+                            
+                            <div class="container"> 
+                                <?php
+                                    include __DIR__ . '/builders/aside.php';
+	                        	    include __DIR__ . '/builders/maincontent.php';
+	                            ?>
+                            </div>
                                           
             </section>
         </main>
