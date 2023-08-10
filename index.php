@@ -1,4 +1,9 @@
 <?php 
+    $pages = [ 
+        'ARIA' => [ 
+            'page_data' => 'Ария'
+         ] 
+    ];
     $page_name = array_key_exists('page', $_GET) && $_GET['page'] ? $_GET['page'] : '404';
     $page_path = "pages/$page_name.php";
     if ( !is_file($page_path) ) {
@@ -14,13 +19,13 @@
 	<body>
         <main>
             <section>           
-                            <?php 
-                                include $page_path;
-                            ?>
-                               
-                            <?php
-	                        	include __DIR__ . '/builders/test 1.php';
-	                        ?>
+                <?php 
+                    include $page_path;
+                ?>
+                   
+                <?php
+	            	include __DIR__ . '/builders/test 1.php';
+	            ?>
                                           
             </section>
         </main>
