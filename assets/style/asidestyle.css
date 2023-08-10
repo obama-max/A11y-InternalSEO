@@ -10,19 +10,7 @@
     transition: all 0.5s ease;
   }
 
-  .sidebar::before{
-    content: '';
-    display: inline-block;
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    top: 38px;
-    right: -25px;
-    border-radius: 50%;
-    background: #11101d;
-    z-index: -11;
-
-}
+  
   
   .sidebar .logo-details{
     height: 60px;

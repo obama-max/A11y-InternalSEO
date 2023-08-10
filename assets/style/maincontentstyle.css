@@ -34,3 +34,16 @@
     background: #11101d;
     height:40px;
 }
+
+.hack::before{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -45px;
+    top: -35px;
+    border-radius: 50%;
+    background: #11101d;
+    z-index: -11;
+}
