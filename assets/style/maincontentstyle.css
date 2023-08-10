@@ -1,9 +1,9 @@
 .container__body{
-    background: red;
+    background: #fffaee;
     right: 0;
     top: 0;
     height:100%;
-    width: 80%;
+    width: 86.44%;
     position: absolute;
    
 }
@@ -15,7 +15,7 @@
     position: absolute;
 }
 .container__body-title{
-    background: green;
+    background: #11101d;
     display: flex;
     position: absolute;
     width: 100%;
@@ -29,7 +29,7 @@
     overflow-y: hidden;
 }
 .hack{
-    width:100%
-    background: green;
+    width:100%;
+    background: #11101d;
     height:40px;
 }
