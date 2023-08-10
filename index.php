@@ -12,26 +12,38 @@
          ] 
                     ,
          'focus' => [ 
-            'page_data' => 'Фокус',
+            'page_data' => 'SEO',
 
-            'page_link' => 'focus',
+            'page_link' => 'seoonpage',
             'sub_pages' => [
-                'keyboard' => [ 
-                    'page_data' => 'Клавиатура',
+                'seoonpage' => [ 
+                    'page_data' => 'SEO-onpage',
+                    
+                ] ,
+                'seooffpage' => [ 
+                    'page_data' => 'SEO-offpage',
+                    
+                ] ,
+              
+                'semantic' => [ 
+                    'page_data' => 'Семантичен ХТМЛ',
+                    
+                ] ,
+
+                'mobileversion' => [ 
+                    'page_data' => 'Мобилна версия',
+                    
+                ] ,
+                
+                'lighthouse' => [ 
+                    'page_data' => 'Фар (Lighthouse)',
+                    
                 ]
+              
+              
             ]
          ] 
-         ,
-         'fosus' => [ 
-            'page_data' => 'Фокус',
-
-            'page_link' => 'focus',
-            'sub_pages' => [
-                'keyboard' => [ 
-                    'page_data' => 'Клавиатура',
-                ]
-            ]
-         ]
+         
     ];
     $active_page = [
         'page_data' => '404',
@@ -66,6 +78,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <?php include 'builders/head.php'; ?>
         <?php include 'builders/styles.php'; ?>
 	</head>
 
