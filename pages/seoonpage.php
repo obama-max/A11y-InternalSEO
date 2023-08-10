@@ -1,5 +1,5 @@
 
-<div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
+
 	<h2 class="pt-4 fs-4">
 		SEO-onpage
 	</h2>
@@ -63,6 +63,5 @@
   Subtitles example</a> by Darius Popov (<a href="https://codepen.io/obama-max">@obama-max</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-</div>
+
 
