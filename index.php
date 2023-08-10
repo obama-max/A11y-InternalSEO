@@ -8,17 +8,10 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <?php include 'builders/head.php'; ?>
         <?php include 'builders/styles.php'; ?>
 	</head>
 
 	<body>
-       
-        <?php
-	    	include __DIR__ . '/builders/header.php';
-            include 'builders/nav.php'; 
-	    ?>
-
         <main>
             <section>           
                             <?php 
