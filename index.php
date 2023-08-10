@@ -13,34 +13,22 @@
 	</head>
 
 	<body>
-        <?php
-	    	include __DIR__ . '/builders/header.php';
-            include 'builders/nav.php'; 
-1	    ?>
+       
 
         <main>
-            <section>
-                <div class="container-xl pt-5 pb-5">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-9 border border-2 fs-4 flex-column border-dark d-flex rounded-4 me-2 pb-5 " tabindex="0">
+            <section>           
                             <?php 
                                 include $page_path;
                             ?>
-                        </div>
-
-                        <div class="col-md-2 border border-2 fs-3 flex-column border-dark d-flex rounded-4 me-2 pb-5 ms-2 " tabindex="0">
+                               
                             <?php
-	                        	include __DIR__ . '/builders/aside.php';
+	                        	include __DIR__ . '/builders/test 1.php';
 	                        ?>
-                            
-                        </div>
-                    </div>
-                </div>
+                                          
             </section>
         </main>
 
-        <?php
-		    include __DIR__ . '/builders/footer.php';
+        <?php		  
             include 'builders/scripts.php'; 
 	    ?>       
 	</body>
