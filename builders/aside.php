@@ -7,7 +7,7 @@
       ?>
         <li>
           <div class="icon-link">
-            <a href="#">
+            <a href="#" alt="Икона">
               <i class='bx bx-collection' ></i>
 
               <a class="link_name" href='?page=<?php echo $page_link ?>'>
