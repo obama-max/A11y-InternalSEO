@@ -36,7 +36,6 @@
             'page_data' => 'SEO',
             'page_link' => 'seo',
 
-            'page_link' => 'seoonpage',
             'sub_pages' => [
                 'seoonpage' => [ 
                     'page_data' => 'SEO-onpage',
