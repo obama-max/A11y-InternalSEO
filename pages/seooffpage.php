@@ -19,7 +19,7 @@
 			<p>
 				<ul>
 					<li>
-                        Беклинкове (Backlinks)
+                        <a href="https://www.semrush.com/blog/how-to-get-backlinks/">Беклинкове (Backlinks)</a>
 					</li>	
 					<li class="mt-2">
                         Социални сигнали (Social Signals)
@@ -40,21 +40,15 @@
 					<li class="mt-2">
                         Публикуване на статии в чужди блогове (Guest Blogging)
 					</li>
-                    <li class="mt-2"> 
-						
-                        Авторитет(Authority)
+                    <li class="mt-2"> 						
+                        <a href="https://developers.google.com/search/blog/2023/05/understanding-news-topic-authority">Авторитет(Authority)</a>
 					</li> 
 				</ul>	
 			</p>     
 		</div>
 	</div>	
 	
+	<img src="./assets/images/SEO11.png" style="height: 300px; width: 500px; margin-left: 35%;" alt="">
+
 	<p class="pt-4 fs-6">
     Off-Page SEO е неотделима част от всеки изчерпателен SEO стратегия. Той се фокусира върху изграждането на силно онлайн присъствие извън вашия уебсайт, като включва тактики като придобиване на беклинкове, социално участие, сътрудничество с инфлуенсъри и публикуване на съдържание. Чрез ефективно използване на техники за Off-Page SEO, бизнесите могат да подобрят авторитета на уебсайта си, да подобрят ранга му в търсачките и да генерират повече органичен трафик и конверсии.	</p>
-	<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvQbWNr" data-editable="true" data-user="obama-max" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/obama-max/pen/wvQbWNr">
-  Subtitles example</a> by Darius Popov (<a href="https://codepen.io/obama-max">@obama-max</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-
-
