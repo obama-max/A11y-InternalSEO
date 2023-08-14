@@ -49,36 +49,22 @@
 
             'page_link' => 'a11y',
             'sub_pages' => [
-                'aria' => [ 
-                    'page_data' => 'Ария',
-                ] ,
-                'captions' => [ 
-                    'page_data' => 'Субтитри',
-                ] ,
-                'focus' => [ 
-                    'page_data' => 'Фокус',
-                ] ,
-                'operable' => [ 
-                    'page_data' => 'Изпълнимос',
+                'standards' => [ 
+                    'page_data' => 'Стандарти',
                 ] ,
                 'percievable' => [ 
                     'page_data' => 'Възприемливост',
                 ] ,
-                'robust' => [ 
-                    'page_data' => 'Надежност',
-                ] ,
-                'semantic' => [ 
-                    'page_data' => 'Семнатичен HTML',
-                ] ,
-                'testing' => [ 
-                    'page_data' => 'Проверка',
+                'operable' => [ 
+                    'page_data' => 'Изпълнимос',
                 ] ,
                 'understandable' => [ 
                     'page_data' => 'Разбираемост',
                 ] ,
-                'wcag' => [ 
-                    'page_data' => 'WCAG',
-                ] 
+                'robust' => [ 
+                    'page_data' => 'Надежност',
+                ]
+                
 
             ]
          ]
@@ -121,6 +107,7 @@
 	</head>
 
 	<body>
+        <title><?php echo $active_page['page_data'] ?></title>
         <main>
             <section>  
                 
