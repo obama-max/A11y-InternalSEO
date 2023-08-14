@@ -1,7 +1,7 @@
 
         <div class="container__body">
             <p class="container__body-title text-white">
-				<?php echo $active_page['page_data'] ?>
+				<span class="position-absolute"><?php echo $active_page['page_data'] ?></span>
 
 			</p>
             <div class="hack">p</div>

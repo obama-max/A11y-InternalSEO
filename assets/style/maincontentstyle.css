@@ -18,8 +18,8 @@
 .container__body-title{
     background: #11101d;
     display: flex;
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: 85%;
     justify-content: center;
     height: 40px;
     align-items: center; 
@@ -31,6 +31,8 @@
     overflow-y: hidden;
 }
 .hack{
+    position: fixed;
+    z-index: -1;
     width:100%;
     background: #11101d;
     height:50px;
