@@ -11,8 +11,30 @@
             ]
          ] 
                     ,
-         'focus' => [ 
+        'css' => [ 
+            'page_data' => 'CSS',
+            'page_link' => 'css',
+
+            'sub_pages' => [
+                'container' => [ 
+                    'page_data' => 'Контайнер',
+                ] ,
+                
+                'block' => [ 
+                    'page_data' => 'Блок елементи',
+                ] ,
+                'flex' => [ 
+                    'page_data' => 'Флекс',
+                ] ,
+                'selectors' => [ 
+                    'page_data' => 'Селектори',
+                ] 
+            ]
+         ] 
+                    ,
+         'seo' => [ 
             'page_data' => 'SEO',
+            'page_link' => 'seo',
 
             'page_link' => 'seoonpage',
             'sub_pages' => [
@@ -37,6 +59,11 @@
                 
                 'lighthouse' => [ 
                     'page_data' => 'Фар (Lighthouse)',
+                    
+                ] ,
+
+                'website' => [ 
+                    'page_data' => 'Уебстраница (Website)',
                     
                 ]
               
