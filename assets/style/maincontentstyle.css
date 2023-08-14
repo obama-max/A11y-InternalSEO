@@ -7,6 +7,7 @@
     position: absolute;  
     z-index: 30;
 }
+
 .container__aside{
     left: 0;
     top: 0;
@@ -14,6 +15,7 @@
     width: 20%;
     position: absolute;
 }
+
 .container__body-title{
     background: #11101d;
     display: flex;
@@ -24,11 +26,13 @@
     align-items: center; 
     font-size: 36px;
 }
+
 .body{
     background: #fffaee;
     height: 100vh;
     overflow-y: hidden;
 }
+
 .hack{
     position: fixed;
     z-index: -1;
