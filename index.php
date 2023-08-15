@@ -19,18 +19,50 @@
                 'container' => [ 
                     'page_data' => 'Контайнер',
                 ] ,
+
+                'marginpadding' => [ 
+                    'page_data' => 'Разстояния',
+                ] ,
+
+                'button' => [ 
+                    'page_data' => 'Бутон',
+                ] ,
                 
                 'block' => [ 
                     'page_data' => 'Блок елементи',
                 ] ,
+
+                'boxmodel' => [ 
+                    'page_data' => 'Бох модел',
+                ] ,
+
                 'flex' => [ 
                     'page_data' => 'Флекс',
                 ] ,
                 'selectors' => [ 
                     'page_data' => 'Селектори',
-                ] 
+                ] ,
+
+                'bem' => [ 
+                    'page_data' => 'БЕМ',
+                ] ,
+
+                'bootstrap' => [ 
+                    'page_data' => 'Bootstrap',
+                ]
             ]
-         ] 
+         ]      ,
+         'javascript' => [ 
+            'page_data' => 'JS',
+            'page_link' => 'javascript',
+
+            'sub_pages' => [
+                'placeholder' => [ 
+                    'page_data' => 'to be expected in patch 178',
+                ]
+            ]
+         ]  
+         
                     ,
          'seo' => [ 
             'page_data' => 'SEO',
