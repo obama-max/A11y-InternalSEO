@@ -7,7 +7,7 @@
       ?>
         <li>
           <div class="icon-link">
-            <a href="#" alt="Икона">
+            <a href="#" alt="Икона" aria-label="Category button">
               <i class='bx bx-collection' ></i>
 
               <a class="link_name" href='?page=<?php echo $page_link ?>'>
