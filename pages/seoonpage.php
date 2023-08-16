@@ -21,15 +21,15 @@
 			<p>
 				<ul>
 					<li>
-						<a href="https://blog.hubspot.com/marketing/ux-user-experience">Хубав дизайн и удобен сайт</a>
+						<a href="https://blog.hubspot.com/marketing/ux-user-experience">Хубав дизайн и удобен сайт, които е responsive, cross device, cross browser(UX)</a>
 					</li>	
 
 					<li class="mt-2">
-						<a href="https://bonzer.io/blog/html-code-seo">Добра структура на HTML </a>
+						<a href="https://bonzer.io/blog/html-code-seo">Добра структура и семантичен HTML( h1-h6 ,img alt, title- header- nav- breadcrumb - nav- main- section- footer)</a>
 					</li>
 
 					<li class="mt-2"> 
-						<a href="https://www.semrush.com/blog/meta-tag/">Метаданни като заглавие и описание</a>
+						<a href="https://www.oncrawl.com/technical-seo/lighthouse-report-optimize-loading-speed/">Добра скорост на уебсайта</a>
 					</li>               
 				</ul>	 
 			</p>     
@@ -43,7 +43,7 @@
 					</li>
 
 					<li class="mt-2">
-						<a href="https://www.oncrawl.com/technical-seo/lighthouse-report-optimize-loading-speed/">Добра скорост на уебсайта</a>
+						<a href="https://www.semrush.com/blog/meta-tag/">Метаданни като заглавие и описание</a>
 					</li>
 					
 					<li class="mt-2"> 
