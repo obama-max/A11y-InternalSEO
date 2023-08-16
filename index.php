@@ -3,7 +3,6 @@
         'html' => [ 
             'page_data' => 'HTML',
             'page_link' => 'html',
-
             'sub_pages' => [
                 'modals' => [ 
                     'page_data' => 'Тагове',
