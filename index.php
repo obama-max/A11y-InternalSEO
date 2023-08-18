@@ -120,6 +120,9 @@
                 ] ,
                 'robust' => [ 
                     'page_data' => 'Надежност',
+                ],
+                 'essentials' => [ 
+                    'page_data' => 'Най-важното ',
                 ]
                 
 
