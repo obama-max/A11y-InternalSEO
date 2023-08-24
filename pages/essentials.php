@@ -1,9 +1,9 @@
 <h1 class="pt-4 d-flex justify-content-center fs-4">
-	Топ 10 най-ключови моменти в Достъпността:
+	Топ 1 в най-ключовите моменти в Достъпността:
 </h1>
 
 <h2 class="pt-4 fs-4">	
-	Номер 10: Добре написан HTML код
+	Номер 1: Добре написан HTML код
 </h2>   
 
 <p class="pt-4 fs-5">
@@ -31,6 +31,10 @@
 			
 			<li class="fs-6">
 				Коректни връзки: Използвайте &lt;a&gt; елемента за връзки и задайте подходящи атрибути като href за URL и title за описание на връзката.
+			</li>
+
+			<li class="fs-6">
+				Използване на `tabindex`: Помага с подредбата на фокуса. подобрява навигацията. Прави по-лесно навигирането чрез tab бутона в сайта. Не е добра злоупотребата с него. Използва се чрез атрибута `tabindex="0"` и му се задава стойност. Колкото по-голяма е стойността, толкова по-последно ще бъде натиснато съответното поле. 
 			</li>
 		</ul>
 	</div>
@@ -70,7 +74,7 @@
 </p>
 
 <h2 class="pt-4 fs-4">	
-	Номер 10: Използване на описания
+	Номер 1.1: Използване на описания
 </h2>
 
 <p class="pt-4 fs-6">
@@ -111,7 +115,7 @@
 
 		<ul>
 			<li class="fs-6 ">
-				Атрибутът `title` се използва в елементите `&lt;img&gt;` и `&lt;a&gt;` за добавяне на допълнително описание на снимки и връзки.
+				Атрибутът `title` се използва в елементите `&lt;img&gt;` и `&lt;a&gt;` за добавяне на допълнително описание на снимки и връзки. Вм
 			</li>
 
 			<li class="fs-6 mt-2">
@@ -121,20 +125,41 @@
 			<li class="fs-6 mt-2">
 				Това може да бъде полезно за предоставяне на допълнителна информация за връзките или за подсказване на потребителите за съдържанието на снимките.
 			</li>
+
+			<li class="fs-6 mt-2">
+				Предоставете текстово съдържание (чрез атрибута title), което обяснява съдържанието на &lt;iframe&gt;
+			</Li> 
+		</ul>
+	</div>
+
+	<div class="col-12 d-flex align-items-center flex-column my-3">
+		<p class="fs-5">
+			Описание (`label/aria-label`) за снимки и линкове:
+		</p>
+
+		<ul>
+			<li class="fs-6 ">
+				Атрибутът `label` играе ключова роля за подобряване на използваемостта и достъпността на уеб формуляри и входни полета (като &lt;input&gt). 
+			</li>
+
+			<li class="fs-6 mt-2">
+				Атрибутът `aria-label` се използва при: интерактивни елементи без текстови етикети, интерактивни елементи с неясни или съкратени етикети и използване на икони като бутони. Aria се цели да предостави алтернативно текстово описание за елемент, когато стандартните текстови етикети не са видими или не са подходящи. Когато няма видим текст, aria-label може да бъде използван, за да предоставите смислово описание на елемента.
+			</li>
+
 		</ul>
 	</div>
 </div>
 
 <div class="row">
-	<div class="col-6">			
-		<div class="bg-dark rounded mb-4">
+	<div class="col-6 mb-3">			
+		<div class="bg-dark rounded mb-4 h-75">
 			<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
 				<span class="text-white fs-6">
 					HTML
 				</span>
 			</div>
 
-			<div class="p-3 bg-black rounded overflow-y-auto">
+			<div class="p-3 bg-black rounded overflow-y-auto h-100">
 				<code class="m-0 fs-6">
 					<span class="text-white">
 						&lt;
@@ -162,15 +187,15 @@
 		</div>
 	</div>
 
-	<div class="col-6">
-		<div class="bg-dark rounded mb-4">
+	<div class="col-6 mb-3">
+		<div class="bg-dark rounded mb-4 h-75">
 			<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
 				<span class="text-white fs-6">
 					HTML
 				</span>
 			</div>
 
-			<div class="p-3 bg-black rounded overflow-y-auto">
+			<div class="p-3 bg-black rounded overflow-y-auto h-100">
 				<code class="m-0 fs-6">
 					<span class="text-white">
 						&lt;
@@ -239,12 +264,12 @@
 </div>
 
 <p class="fs-6">
-	Използването на `alt` и `title` атрибути е важен аспект от добра практика за уеб разработка, който помага за създаването на по-достъпни и полезни уеб страницы за всички потребители.
+	Използването на `alt` и `title` атрибути е важен аспект от добра практика за уеб разработка, който помага за създаването на по-достъпни и полезни уеб страници за всички потребители.
 </p>
 
 
 <h2 class="pt-4 fs-4">	
-	Номер 10: Правилна подредба на код
+	Номер 1.2: Правилна подредба на код
 </h2>
 
 <p class="fs-5 pt-4">
@@ -348,7 +373,7 @@
 									  </span><br>
 		
 									  <span style="margin-left: 175px;" class="text-white">
-										&lt;<span class="text-info">p</span>&gt;Ние сме уеб разработчици, които създават креативни и функционални <span style="margin-left: 175px;">уебсайтове за нашите клиенти.&lt;/<span class="text-info">p</span>&gt;</span>
+										&lt;<span class="text-info">p</span>&gt;Ние сме уеб разработчици&lt;/<span class="text-info">p</span>&gt;</span>
 									  </span><br>
 									<span style="margin-left: 125px;">&lt;/<span class="text-info">section</span>&gt;</span>
 								</span><br> <br>
@@ -385,63 +410,10 @@
 								</span>
 							<span style="margin-left: 80px;">&lt;/<span class="text-info">footer</span>&gt;</span><br>
 						  </span>
-						<span style="margin-left: 45px;">&lt;/<span class="text-info">body</span>&gt;<br></span>
+						<span style="margin-left: 45px;" class="text-white">&lt;/<span class="text-info">body</span>&gt;<br></span>
 					</span>
 					<span class="text-white">&lt;/<span class="text-info">html</span>&gt;<br></span>
 				</code>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="row ">
-	<div class="col-3 p-4 ">
-		<div class="col-12 ">
-			<img class="pb-4" src="./assets/images/SEO11.png" alt="">
-
-			<p>Ние сме търговска компания, която се занимава с продажбата на различни видове електроинструменти, ръчни инструменти, други машини и консумативи.</p>
-		</div>
-	</div>
-
-	<div class="col-9 ">
-		<div class="col-12 p-4 ">
-			<img src="./assets/images/CSS1.png" alt="">
-		</div>
-
-		<div class="row">
-			<div class="col-4 p-4 ">
-			<p>ИНФОРМАЦИЯ</p>
-
-			<ul>
-				<li>Рекламация</li>
-				<li>Условия за доставка</li>
-				<li>Купи на лизинг</li>
-				<li>Удължаване на гаранцията</li>
-				Производители
-				<li>Правилник за използване на уеб сайта и Защита на личните данни</li>
-			</ul>
-			</div>
-
-			<div class="col-4 p-4 ">
-			<p>НАВИГАЦИЯ</p>
-
-			 <ul>
-				<li>Начало</li>
-				<li>За нас</li>
-				<li>Магазин</li>
-				<li>Блог</li>
-				<li>Контакти</li>
-			 </ul>
-			</div>
-
-			<div class="col-4 p-4 ">
-			<p>ПОСЛЕДНИ СТАТИИ</p>
-
-			 <ul>
-				<li>Видове бормашини и тяхното приложение</li>
-				<li>Ремонт вкъщи: какви инструменти са ни необходими, за да ремонтираме сами?</li>
-				<li>Безопасна работа и поддръжка на ръчни и преносими инструменти</li>
-			 </ul>
 			</div>
 		</div>
 	</div>
