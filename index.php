@@ -4,10 +4,17 @@
             'page_data' => 'HTML',
             'page_link' => 'html',
             'sub_pages' => [
-                'modals' => [ 
+
+                'structure' => [ 
+                    'page_data' => 'Структура',
+                ]   ,
+
+                'tags' => [ 
                     'page_data' => 'Тагове',
-                ]
-            ]
+                ]   
+
+            ]       
+            
          ] 
                     ,
         'css' => [ 
@@ -60,7 +67,17 @@
                     'page_data' => 'to be expected in patch 178',
                 ]
             ]
-         ]  
+         ]      ,
+         'php' => [ 
+            'page_data' => 'PHP',
+            'page_link' => 'php',
+
+            'sub_pages' => [
+                'placeholder' => [ 
+                    'page_data' => 'to be expected in patch 225',
+                ]
+            ]
+         ] 
          
                     ,
          'seo' => [ 
