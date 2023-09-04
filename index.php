@@ -51,6 +51,18 @@
                 'button' => [ 
                     'page_data' => 'Бутон',
                 ] ,
+
+                'form' => [ 
+                    'page_data' => 'Форма',
+                ] ,
+
+                'list' => [ 
+                    'page_data' => 'Списък',
+                ] ,
+
+                'navigation' => [ 
+                    'page_data' => 'Навигация',
+                ] ,
                 
                 'block' => [ 
                     'page_data' => 'Блок елементи',
