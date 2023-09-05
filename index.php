@@ -75,6 +75,11 @@
                 'flex' => [ 
                     'page_data' => 'Флекс',
                 ] ,
+
+                'grid' => [ 
+                    'page_data' => 'Решетка',
+                ] ,
+
                 'selectors' => [ 
                     'page_data' => 'Селектори',
                 ] ,
