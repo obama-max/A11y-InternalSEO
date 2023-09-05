@@ -67,6 +67,10 @@
                     'page_data' => 'Селектори',
                 ] ,
 
+                'responsive' => [ 
+                    'page_data' => 'Респонсив',
+                ] ,
+
                 'bem' => [ 
                     'page_data' => 'БЕМ',
                 ] ,
