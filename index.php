@@ -52,6 +52,10 @@
                     'page_data' => 'Бутон',
                 ] ,
 
+                'background' => [ 
+                    'page_data' => 'Заден фон',
+                ] ,
+
                 'form' => [ 
                     'page_data' => 'Форма',
                 ] ,
