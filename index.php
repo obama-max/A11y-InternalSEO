@@ -75,6 +75,10 @@
                 'boxmodel' => [ 
                     'page_data' => 'Бох модел',
                 ] ,
+                   
+                'float' => [ 
+                    'page_data' => 'Флоут',
+                ] ,
 
                 'flex' => [ 
                     'page_data' => 'Флекс',
@@ -173,7 +177,7 @@
                     'page_data' => 'Възприемливост',
                 ] ,
                 'operable' => [ 
-                    'page_data' => 'Изпълнимос',
+                    'page_data' => 'Изпълнимост',
                 ] ,
                 'understandable' => [ 
                     'page_data' => 'Разбираемост',
