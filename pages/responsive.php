@@ -35,16 +35,21 @@
                     <li class="fs-6 mt-2"> 
                         Запитвания за медия: Запитванията за медия са CSS правила, които ви позволяват да прилагате различни стилове и оформления в зависимост от характеристиките на устройството, като ширината на екрана, височината или ориентацията. Запитванията за медия ви позволяват да създавате точки на пресичане, където дизайнът се адаптира към устройството.
 
-                        <p class="codepen mt-2" data-height="300" data-default-tab="html,result" data-slug-hash="MWZjBJJ" data-user="BarinHD-YT" style="height: 300px;box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                          <span>See the Pen <a href="https://codepen.io/BarinHD-YT/pen/MWZjBJJ">
-                          Untitled</a> by BarinHD YT (<a href="https://codepen.io/BarinHD-YT">@BarinHD-YT</a>)
-                          on <a href="https://codepen.io">CodePen</a>.</span>
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWZjBJJ" data-editable="true" data-user="BarinHD-YT" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/BarinHD-YT/pen/MWZjBJJ">
+                        Untitled</a> by BarinHD YT (<a href="https://codepen.io/BarinHD-YT">@BarinHD-YT</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
                         </p>
                     
                     </li>
 
                     <li class="fs-6 mt-2">
                         Гъвкава типография: Текстът трябва да бъде четим и да се адаптира към различните размери на екраните. Можете да използвате относителни единици като проценти или ems за размерите на шрифтовете, за да осигурите четимост на различни устройства.
+                        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="eYbgzNp" data-editable="true" data-user="BarinHD-YT" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                        <span>See the Pen <a href="https://codepen.io/BarinHD-YT/pen/eYbgzNp">
+                        Untitled</a> by BarinHD YT (<a href="https://codepen.io/BarinHD-YT">@BarinHD-YT</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                        </p>
                     </li>
 
                     <li class="fs-6 mt-2">
