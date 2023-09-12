@@ -68,6 +68,14 @@
                     'page_data' => 'Блок елементи',
                 ] ,
 
+                'debuginspect' => [ 
+                    'page_data' => 'Debug и Inspect',
+                ] ,
+                
+                'organization' => [ 
+                    'page_data' => 'Организация',
+                ] ,
+
                 'boxmodel' => [ 
                     'page_data' => 'Бох модел',
                 ] ,
