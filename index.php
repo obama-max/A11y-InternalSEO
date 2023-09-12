@@ -87,7 +87,11 @@
                 'boxmodel' => [ 
                     'page_data' => 'Бох модел',
                 ] ,
-                   
+                
+                'position' => [ 
+                    'page_data' => 'Позиция',
+                ] ,
+
                 'float' => [ 
                     'page_data' => 'Флоут',
                 ] ,
