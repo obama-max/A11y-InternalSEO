@@ -53,3 +53,13 @@
     background: #11101d;
     z-index: -11;
 }
+iframe{
+    max-width: 900px !important;
+}
+.cp_embed_wrapper{
+    display: flex !important;
+    justify-content: center !important;
+}
+.specificity-table{
+    max-width: 900px !important;
+}
