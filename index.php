@@ -40,20 +40,53 @@
             'page_link' => 'css',
 
             'sub_pages' => [
-                'container' => [ 
-                    'page_data' => 'Контайнер',
+
+                'organization' => [ 
+                    'page_data' => 'Организация',
+                ] ,
+                
+                'selectors' => [ 
+                    'page_data' => 'Селектори',
+                ] ,
+
+                'inheritence' => [ 
+                    'page_data' => 'Наследяване',
+                ] ,
+
+                'debuginspect' => [ 
+                    'page_data' => 'Debug и Inspect',
+                ] ,
+                
+                'bem' => [ 
+                    'page_data' => 'БЕМ',
+                ] ,
+                
+                'boxmodel' => [ 
+                    'page_data' => 'Бох модел',
+                ] ,
+                
+                'block' => [ 
+                    'page_data' => 'Блок елементи',
                 ] ,
 
                 'marginpadding' => [ 
                     'page_data' => 'Разстояния',
                 ] ,
 
-                'button' => [ 
-                    'page_data' => 'Бутон',
+                'position' => [ 
+                    'page_data' => 'Позиция',
                 ] ,
 
-                'background' => [ 
-                    'page_data' => 'Заден фон',
+                'flex' => [ 
+                    'page_data' => 'Флекс',
+                ] ,
+
+                'container' => [ 
+                    'page_data' => 'Контайнер',
+                ] ,
+
+                'button' => [ 
+                    'page_data' => 'Бутон',
                 ] ,
 
                 'form' => [ 
@@ -67,49 +100,21 @@
                 'navigation' => [ 
                     'page_data' => 'Навигация',
                 ] ,
-                
-                'block' => [ 
-                    'page_data' => 'Блок елементи',
-                ] ,
-
-                'debuginspect' => [ 
-                    'page_data' => 'Debug и Inspect',
-                ] ,
-                
-                'organization' => [ 
-                    'page_data' => 'Организация',
-                ] ,
-
-                'overflow' => [ 
-                    'page_data' => 'Препълване',
-                ] ,
-
-                'boxmodel' => [ 
-                    'page_data' => 'Бох модел',
-                ] ,
-                
-                'position' => [ 
-                    'page_data' => 'Позиция',
-                ] ,
 
                 'float' => [ 
                     'page_data' => 'Флоут',
                 ] ,
-
-                'flex' => [ 
-                    'page_data' => 'Флекс',
-                ] ,
                 
-                'inheritence' => [ 
-                    'page_data' => 'Наследяване',
+                'background' => [ 
+                    'page_data' => 'Заден фон',
                 ] ,
 
                 'grid' => [ 
                     'page_data' => 'Решетка',
                 ] ,
 
-                'selectors' => [ 
-                    'page_data' => 'Селектори',
+                'overflow' => [ 
+                    'page_data' => 'Препълване',
                 ] ,
 
                 'responsive' => [ 
@@ -118,10 +123,6 @@
 
                 'pseudo' => [ 
                     'page_data' => 'Псевдо',
-                ] ,
-
-                'bem' => [ 
-                    'page_data' => 'БЕМ',
                 ] ,
 
                 'bootstrap' => [ 
