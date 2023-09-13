@@ -91,6 +91,10 @@
                 'flex' => [ 
                     'page_data' => 'Флекс',
                 ] ,
+                
+                'inheritence' => [ 
+                    'page_data' => 'Наследяване',
+                ] ,
 
                 'grid' => [ 
                     'page_data' => 'Решетка',
