@@ -134,8 +134,8 @@
             'page_link' => 'javascript',
 
             'sub_pages' => [
-                'placeholder' => [ 
-                    'page_data' => 'to be expected in patch 178',
+                'javascriptbasics' => [ 
+                    'page_data' => 'Основи на JavaScript',
                 ]
             ]
          ]      ,
