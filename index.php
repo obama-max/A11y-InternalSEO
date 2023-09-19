@@ -137,6 +137,10 @@
             'sub_pages' => [
                 'javascriptbasics' => [ 
                     'page_data' => 'Основи на JavaScript',
+                ] ,
+
+                'javascriptdom' => [ 
+                    'page_data' => 'JavaScript DOM',
                 ]
             ]
          ]      ,
