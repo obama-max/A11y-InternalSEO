@@ -46,9 +46,7 @@ JavaScript DOM
   JS DOM example</a> by Darius Popov (<a href="https://codepen.io/obama-max">@obama-max</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <p class="mt-5 fs-6">   
 В заключение, JavaScript DOM е мощен инструмент, който позволява на разработчиците да създават интерактивни, динамични и функционални уеб приложения, които подобряват потребителското изживяване в интернет. Този модел е сърцето на уеб разработката и е от съществено значение за създаването на съвременни уеб сайтове и приложения.
 </p>	
-
