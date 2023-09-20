@@ -139,6 +139,10 @@
                     'page_data' => 'Основи на JavaScript',
                 ] ,
 
+                'javascripterrors' => [ 
+                    'page_data' => 'Грешки в JS',
+                ] ,
+
                 'javascriptdom' => [ 
                     'page_data' => 'JavaScript DOM',
                 ]
