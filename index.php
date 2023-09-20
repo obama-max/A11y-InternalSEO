@@ -141,6 +141,10 @@
 
                 'javascriptdom' => [ 
                     'page_data' => 'JavaScript DOM',
+                ] ,
+
+                'jsexecution' => [ 
+                    'page_data' => 'Изпълнение на скриптовете',
                 ]
             ]
          ]      ,
