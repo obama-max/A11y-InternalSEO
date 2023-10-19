@@ -43,16 +43,15 @@
 }
 
 .hack::before{
-    content: '';
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+    content: "";
     position: absolute;
-    left: -45px;
-    top: -15px;
-    border-radius: 50%;
-    background: #11101d;
-    z-index: -11;
+    top: 100%;
+    left: 0.45%;
+    height: 76%;
+    width: 1.7%;
+    border-top-left-radius: 50%;
+    background: #fff;
+    box-shadow: 0px -20px 0 0 #000000;
 }
 iframe{
     max-width: 900px !important;
